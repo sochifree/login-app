@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gal.css">
+</head>
+<body style="background-color:rgba(5, 5, 4, 0.979)">
+    <div class="product"> 
+        <div class="product-small-img">
+           <img src="./pics/pic0.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic1.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic2.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic3.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic4.jpg" onclick="myFunction(this)">
+        </div>
+
+        <div class="product-small-img2">
+           <img src="./pics/pic5.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic6.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic7.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic8.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic9.jpg" onclick="myFunction(this)"> 
+
+        </div>
+        <div class="product-small-img3">
+           <img src="./pics/pic10.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic11.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic12.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic13.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic14.jpg" onclick="myFunction(this)">
+
+        </div>
+        <div class="product-small-img4">
+           <img src="./pics/pic15.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic16.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic17.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic18.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic19.jpg" onclick="myFunction(this)">
+
+        </div>
+        <div class="product-small-img5">
+           <img src="./pics/pic20.jpg" onclick="myFunction(this)">
+           <img src="./pics/pic21.jpg" onclick="myFunction(this)">
+           <img src="./pics/sochi.jpg" onclick="myFunction(this)">
+        </div>
+
+        <div class="img-container">
+            <img  id="imageBox" src="./pics/pic0.jpg">
+        </div>
+    </div>
+
+    <script>
+        function myFunction(smallImg){
+            let fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+</body>
+</html>

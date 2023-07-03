@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+ /* background-color: rgba(17, 14, 218, 0.897);*/
+  background-image: url('/assets/login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-center{
+    padding-top: 10%;
+}
+
+.container{
+    margin-top: 10%;
+    border-radius: 20px;
+    justify-content: center;
+    background: rgba(37, 37, 196, 0.753);
+}
+
+h3, h5{
+    color:white;
+}
+
+a{
+    color: rgb(207, 184, 184);
+    transition: all .5em all ease-in-out;
+}
+
+a:hover{
+    transform:translateY(3px);
+    color: black;
+}
+

@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+   /* background-color: rgba(17, 14, 218, 0.897);*/
+    background-image: url('/assets/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+/*{
+    padding-top: 10%;
+}*/
+
+.container{
+    margin-top: 2%;
+    border-radius: 20px;
+    justify-content: center;
+    background: rgba(37, 37, 196, 0.753);
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+    margin-top: .8em;
+    margin-bottom: .4em;
+}
+form{
+    padding: .3em;
+}
+.form-text{
+    color: rgb(224, 221, 221);
+}
+
+#login .title>span{
+    font-size: .8em;
+    margin-bottom: 20%;
+}
+.logout{
+    padding: 10px;
+    background-color: rgba(221, 212, 214, 0.87);
+    border-radius: 10px;
+    justify-content:center;
+    
+}
